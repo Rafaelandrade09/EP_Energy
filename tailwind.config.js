@@ -1,0 +1,73 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        gray: {
+          "100": "#062140",
+          "200": "rgba(7, 18, 31, 0.79)",
+          "300": "rgba(255, 255, 255, 0)",
+          "400": "rgba(0, 0, 0, 0.88)",
+          "500": "rgba(255, 255, 255, 0.4)",
+          "600": "#fcfcfc",
+          "700": "#0f2642",
+          "900": "#07121f",
+          "1000": "#0e0e0e",
+          "1400": "rgba(6, 33, 64, 0.84)",
+        },
+        dimgray: "#696969",
+        secondary: "#fff",
+        black: "#000",
+        whitesmoke: {
+          "100": "#f4f3f3",
+          "200": "#e3ece7",
+          "300": "#f1f1f1",
+          "400": "#ebebeb",
+          "600": "rgba(238, 238, 238, 0.82)",
+        },
+        darkslategray: {
+          "100": "#404040",
+          "200": "rgba(52, 76, 107, 0.91)",
+        },
+        steelblue: "#265082",
+        forestgreen: "#4e962c",
+        silver: "#bebaba",
+        powderblue: "#c8e6e7",
+        honeydew: "#e4fbed",
+        lavender: "#e2e9ff",
+      },
+      fontFamily: {
+        "be-vietnam-pro": "'Be Vietnam Pro'",
+        "open-sans": "'Open Sans'",
+        "open-sans-condensed": "'Open Sans Condensed'",
+        "saira-semicondensed": "'Saira SemiCondensed'",
+        "abyssinica-sil": "'Abyssinica SIL'",
+        "playfair-display": "'Playfair Display'",
+        "arima-madurai": "'Arima Madurai'",
+        inherit: "inherit",
+        "plus-jakarta-sans": "'Plus Jakarta Sans'",
+        "bebas-neue": "'Bebas Neue'",
+      },
+      borderRadius: {
+        mini: "15px",
+        "3xs": "10px",
+        "12xs": "1px",
+      },
+    },
+    fontSize: {
+      sm: "0.88rem",
+      "3xl": "1.38rem",
+      xl: "1.25rem",
+      "6xl": "1.56rem",
+      "21xl": "2.5rem",
+      "41xl": "3.75rem",
+      "26xl": "2.81rem",
+      base: "1rem",
+      "13xl": "2rem",
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
