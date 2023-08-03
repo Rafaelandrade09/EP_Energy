@@ -18,3 +18,9 @@ body {
 ::after {
   border-width: 0;
 }
+
+.texto-menu{
+  font-size: 1.1rem;
+  top: 1.40rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

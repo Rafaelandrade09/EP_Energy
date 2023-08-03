@@ -9,7 +9,6 @@ import Desktop26 from "./pages/Desktop26";
 import Desktop25 from "./pages/Desktop25";
 import Desktop24 from "./pages/Desktop24";
 import Desktop23 from "./pages/Desktop23";
-import Desktop18 from "./pages/Desktop18";
 import { useEffect } from "react";
 
 function App() {
@@ -48,10 +47,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/desktop-18":
-        title = "";
-        metaDescription = "";
-        break;
     }
 
     if (title) {
@@ -75,7 +70,6 @@ function App() {
       <Route path="/desktop-25" element={<Desktop25 />} />
       <Route path="/desktop-24" element={<Desktop24 />} />
       <Route path="/desktop-23" element={<Desktop23 />} />
-      <Route path="/desktop-18" element={<Desktop18 />} />
     </Routes>
   );
 }
