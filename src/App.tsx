@@ -4,7 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Desktop28 from "./pages/Desktop28";
+import PagPrincipal from "./pages/PagPrincipal";
 import Desktop26 from "./pages/Desktop26";
 import Desktop25 from "./pages/Desktop25";
 import Desktop24 from "./pages/Desktop24";
@@ -65,7 +65,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Desktop28 />} />
+      <Route path="/" element={<PagPrincipal />} />
       <Route path="/desktop-26" element={<Desktop26 />} />
       <Route path="/desktop-25" element={<Desktop25 />} />
       <Route path="/desktop-24" element={<Desktop24 />} />
