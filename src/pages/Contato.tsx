@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 
-const Desktop23: FunctionComponent = () => {
+const Contato: FunctionComponent = () => {
   return (
     <div className="relative bg-gray-500 w-full h-[84.06rem] overflow-hidden text-center text-[1.56rem] text-secondary font-saira-semicondensed">
       <div className="absolute top-[0.06rem] left-[0rem] bg-gray-900 w-[87.69rem] h-[4.75rem]" />
@@ -179,4 +179,4 @@ const Desktop23: FunctionComponent = () => {
   );
 };
 
-export default Desktop23;
+export default Contato;

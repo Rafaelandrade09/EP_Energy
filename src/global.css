@@ -12,6 +12,8 @@
 @tailwind utilities;
 body {
   @apply leading-[normal] m-0;
+  margin: 0;
+  padding: 0;
 }
 *,
 ::before,
@@ -23,4 +25,65 @@ body {
   font-size: 1.1rem;
   top: 1.40rem;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
+
+
+/* BarraNav.css */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #07121F;
+  color: white;
+  height: 60.6px;
+  padding: 0 20px;
+  max-width: 100%;
+  min-width: 60%;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.logo-image {
+  width: 300px;
+  height: 210px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 60px; 
+  
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  padding: 15px;
+  transition: background-color 0.3s;
+  position: relative; 
+}
+
+.nav-links a::before { 
+  content: "";
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  border: 2px solid transparent; 
+  transition: border-color 0.3s;
+  z-index: 1; 
+}
+
+.nav-links a:hover {
+  background-color: #213041;
+}
+
+
+
+
+

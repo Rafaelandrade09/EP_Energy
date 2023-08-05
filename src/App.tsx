@@ -6,10 +6,13 @@ import {
 } from "react-router-dom";
 import PagPrincipal from "./pages/PagPrincipal";
 import Desktop26 from "./pages/Desktop26";
-import Desktop25 from "./pages/Desktop25";
-import Desktop24 from "./pages/Desktop24";
-import Desktop23 from "./pages/Desktop23";
+import Desktop25 from "./pages/NossasSolucoes";
+import Desktop24 from "./pages/Sobre";
+import Desktop23 from "./pages/Contato";
 import { useEffect } from "react";
+import Contato from "./pages/Contato";
+import Sobre from "./pages/Sobre";
+import NossasSolucoes from "./pages/NossasSolucoes";
 
 function App() {
   const action = useNavigationType();
@@ -35,15 +38,15 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/desktop-25":
+      case "/NossasSolucoes":
         title = "";
         metaDescription = "";
         break;
-      case "/desktop-24":
+      case "/Sobre":
         title = "";
         metaDescription = "";
         break;
-      case "/desktop-23":
+      case "/Contato":
         title = "";
         metaDescription = "";
         break;
@@ -67,9 +70,9 @@ function App() {
     <Routes>
       <Route path="/" element={<PagPrincipal />} />
       <Route path="/desktop-26" element={<Desktop26 />} />
-      <Route path="/desktop-25" element={<Desktop25 />} />
-      <Route path="/desktop-24" element={<Desktop24 />} />
-      <Route path="/desktop-23" element={<Desktop23 />} />
+      <Route path="/NossasSolucoes" element={<NossasSolucoes />} />
+      <Route path="/Sobre" element={<Sobre />} />
+      <Route path="/Contato" element={<Contato />} />
     </Routes>
   );
 }

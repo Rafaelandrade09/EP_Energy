@@ -1,4 +1,7 @@
-import React from 'react';
+
+import React, { useState } from "react";
+import '../../global.css'
+
 
 function CarosselProd (){
     return(
@@ -47,3 +50,7 @@ function CarosselProd (){
         </div>
     );
 }export default CarosselProd;
+
+
+
+
