@@ -9,6 +9,8 @@ import CarrosselBanner from "../componentes/PagPrincipal/CarrosselBanner";
 import DivParalax from "../componentes/PagPrincipal/DivParalax";
 import MargensLaterais from "../componentes/PagPrincipal/MargensLaterais";
 import '../global.css';
+import '../paginaPrincipal.css';
+
 
 
 

@@ -1,4 +1,10 @@
 import { FunctionComponent } from "react";
+import BarraNav from "../componentes/PagPrincipal/BarraNav";
+import Rodape from "../componentes/PagPrincipal/Rodape";
+import MargensLaterais from "../componentes/PagPrincipal/MargensLaterais";
+import '../contato.css';
+
+/*
 
 const Contato: FunctionComponent = () => {
   return (
@@ -176,6 +182,54 @@ const Contato: FunctionComponent = () => {
         src="/customcolor-textlogoname-transparent-background-1@2x.png"
       />
     </div>
+  );
+};
+
+export default Contato;
+
+*/
+
+const Contato: FunctionComponent = () => {
+  return (
+    <div className="relative bg-gray-500 w-full h-[84.06rem] overflow-hidden text-center text-[1.56rem] text-secondary font-saira-semicondensed">
+    <BarraNav />
+
+    <img
+      className="absolute banner-image"
+      alt=""
+      src="/contact-banner1-1@2x.png"
+    />
+
+    {/* Formulário de Contato */}
+    <div className="absolute form-wrapper">
+      {/* ... Elementos do formulário ... */}
+    </div>
+
+    <div className="contact-info-titulo">
+      <h1>Informações para contato</h1>
+    </div>
+
+    <div className="contact-info-tel">
+      <h2>Tel:</h2>
+      <h3>+55 (17) 98822-8464</h3>
+    </div>
+
+    <div className="contact-info-email">
+      <h2>Email:</h2>
+      <h3>vendas@epenergy.com.br</h3>
+    </div>
+
+
+    <div className="button-info">
+      <button>
+        <p>Entrar em Contato</p>
+        <img alt="" src="/vector4.svg" />
+      </button>
+    </div>
+
+    <Rodape />
+    <MargensLaterais />
+  </div>
   );
 };
 
